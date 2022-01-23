@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Condensed&display=swap');
+
+$theme-colors: (
+  'primary': #61a0af,
+  'secondary': #f9b9b7,
+  'success': #5aaa95,
+  'info': #96c9dc,
+  'warning': #f5d491,
+  'danger': #f06c9b,
+  'light': #feefe5,
+  'dark': #353535,
+);
+
+$font-family-sans-serif: 'Roboto Condensed', sans-serif, system-ui,
+  -apple-system, 'Segoe UI';
+
+@import '~bootstrap/scss/bootstrap';
